@@ -1,0 +1,37 @@
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #2d7a2d;
+  margin-bottom: 16px;
+}
+
+p {
+  color: #333;
+  margin-bottom: 24px;
+  font-size: 1.1em;
+}
+
+.botao {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #2d7a2d;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  transition: background 0.2s;
+}
+
+.botao:hover {
+  background: #256025;
+} 
